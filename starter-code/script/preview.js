@@ -21,7 +21,7 @@ if(profileData || profileImage){
 
 if (storedLinks) {
   storedLinks.forEach((link) => {
-    linkResult.innerHTML += `<a href="${link.link}">
+    linkResult.innerHTML += `<a href="${link.link}" target="_blank">
       <button>
         <div><img src="./assets/images/${link.platform}.svg" alt=""></div>
         <p>${link.platform}</p>
